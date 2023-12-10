@@ -1,0 +1,240 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 6, 44);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    size: 48vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(80, 80, 230);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(139, 139, 238);
+    font-size: 1rem;
+}
+
+.project {
+    margin: -28px 160px;
+    font: 22px;
+}
+
+.firstproject {
+    margin: 55px 160px;
+}
+
+.first-desc {
+    margin: 14px 4px;
+}
+
+.secondproject {
+    margin: -26px 160px;
+}
+
+.title {
+    font-size: 17px;
+}
+
+.first-desc {
+    font-size: 14px;
+}
+
+.second-desc {
+    font-size: 14px;
+}
+
+.thirdproject {
+    margin: 45px 160px;
+}
+
+.third-desc {
+    font-size: 14px;
+}
+
+footer {
+    background-color: rgb(80, 80, 230);
+    height: 25px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    margin: 135px;
+    color: gray;
+}
+
+.button {
+    padding: 10px;
+    background-color: #3535ab;
+    color: Grey;
+    border: 2.2px solid white;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bttn {
+    color: white;
+
+}
+
+.rightsection {
+    width: 10%;
+    margin-left: 1100px;
+    margin-top: 70px;
+}
+
+.leftsection {
+    margin-top: 66px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        position: fixed;
+        margin-top: -81px;
+        margin-left: -800px;
+    }
+
+    .left {
+        margin-left: -180px;
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        margin-left: -400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right {
+        margin-left: -45px;
+        font-size: 0.8rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        width: 380%;
+        background-color: rgb(80, 80, 230);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(80, 80, 230);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    nav ul li a:hover {
+        color: rgb(139, 139, 238);
+        font-size: 1rem;
+
+    }
+
+    main {
+        width: 280%;
+    }
+
+    .button {
+        margin-top: 350px;
+        margin-left: -168px;
+        padding: 10px;
+        background-color: #3535ab;
+        color: Grey;
+        border: 2.2px solid white;
+        border-radius: 9px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    nav {
+        margin-left: 505px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(80, 80, 230);
+    }
+
+    .firstsection {
+        font-size: 35px;
+        margin-top: -15px;
+    }
+.title{
+font-size: 33px;
+}
+.first-desc{
+font-size: 20px;
+}  
+.second-desc{
+font-size: 20px;
+}
+.third-desc{
+font-size: 20px;
+}    
+
+    footer {
+        margin-top: 1015px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(80, 80, 230);
+        color: white;
+        text-align: center;
+    }
+
+    footer .footer-rights {
+        text-align: center;
+        margin: 4px;
+        color: gray;
+    }
+
+
+}
+

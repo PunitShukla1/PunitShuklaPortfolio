@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 6, 44);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    size: 48vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(80, 80, 230);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(139, 139, 238);
+    font-size: 1rem;
+}
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 73px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.rightsection img {
+    width: 93%;
+    margin: 44px 39px;
+
+}
+
+.aboutme {
+    margin: 80px -50px;
+    margin-top: -228px;
+    font-size: 25px;
+
+}
+
+.abouttext {
+    font-size: 13px;
+    margin-top: 20px;
+
+}
+
+footer {
+    background-color: rgb(80, 80, 230);
+    height: 25px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    margin: 18px;
+    color: gray;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        position: fixed;
+        margin-top: -74px;
+        margin-left: -60px;
+    }
+
+    .left {
+        margin-left: -35px;
+        font-size: 0.7rem;
+    }
+
+    nav ul {
+        margin-left: -80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right {
+        margin-left: -45px;
+        font-size: 0.5rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 37px;
+        width: 380%;
+        background-color: rgb(80, 80, 230);
+    }           
+
+    nav ul li {
+        list-style: none;
+        margin: 0 5px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    nav ul li a:hover {
+        color: rgb(139, 139, 238);
+        font-size: 1rem;
+
+    }
+
+
+    .image {
+        margin-top: -236px;
+        width: 125px;
+    }
+
+    .aboutme {
+        margin-top: 0pc;
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    footer{
+            margin-top: 890px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 103%;
+            background-color: rgb(80, 80, 230);
+            color: white;
+            text-align: center;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            margin: 4px;
+            color: gray;
+        }
+
+    }
+}

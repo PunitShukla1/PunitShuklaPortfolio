@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="education.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Punit Shukla Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li> <a href="education.html"> Education </a></li>
+                    <li> <a href="project.html"> Projects </a> </li>
+                    <li> <a href="contact.html"> Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section class="secondsection">
+        <span class="text-grey"> What I have done so far</span>
+        <h1> My Education </h1>
+        <div class="horizontalray">
+            <div class="verticalray">
+                <img class="pu" src="pu.png">
+                <div class="edu-quali">
+                    <p>Parul University</p>
+                    <div class="degree">B.Tech CSE(Cyber Security) <br><br>
+                        (2021-Present)
+                        <br> <br>
+                        CGPA: 7.18
+                    </div>
+                </div>
+            </div>
+            <div class="verticalray">
+
+                <div class="quickheal">
+                    <img src="quick.png" alt="" class="quick">
+                    <p>Quick Heal Academy</p>
+                    <div class="degree">Industry Embedded Program
+                        <br><br>
+                        Cyber Security
+                        <br><br>
+                        (2021-Present)
+                    </div>
+                </div>
+
+            </div>
+            <div class="verticalray">
+                <div class="school">
+                    <img src="rbse.jpeg" alt="" class="rbse">
+                    <p>Sarswarti Vidhaya Mandir</p>
+                    <div class="degree">XII (RBSE)
+                        <br><br>
+                        90.60%
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <br><br><br><br><br>
+
+
+
+    <section class="firstsection">
+
+        <div class="certi">
+            Certificate
+
+            <!-- slides start from here -->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+
+                    <img src="certificate1.jpeg" style="width:55%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="certificate2.jpeg" style="width:55%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="certificate3.jpeg" style="width:55%">
+
+                </div>
+                <div class="mySlides fade" class="wid">
+
+                    <img src="certificate4.jpeg" style="width:55%">
+
+                </div>
+                <div class="mySlides fade">
+
+                    <img src="certificate5.png" style="width:55%">
+
+                </div>
+                <div class="mySlides fade">
+
+                    <img src="certificate 6.png" style="width:55%">
+
+                </div>
+                <div class="mySlides fade">
+
+                    <img src="certificate 7.png" style="width:55%">
+
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center" class="Dot">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <script>
+                let slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        <div class="footer-rights">Copyright &#169 Punit'sPortfolio.in | All rights reserved </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,452 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(6, 6, 44);
+            ;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(80, 80, 230);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(139, 139, 238);
+            font-size: 1rem;
+
+        }
+
+        .left {
+            font-size: 1.2rem;
+        }
+
+        .right {
+            font-size: 0.8rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 25%;
+        }
+
+        .rightsection img {
+            width: 93%;
+            margin: 44px 39p
+        }
+
+        .text-purple {
+            color: rgb(157, 81, 228);
+        }
+
+        .text-grey {
+            color: rgb(157, 81, 228);
+        }
+
+        #element {
+            color: rgb(157, 81, 228);
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+
+        }
+
+        .leftsection .button {
+            padding: 10px 0;
+        }
+
+        .leftsection .btn {
+            padding: 10px;
+            background-color: #3535ab;
+            color: white;
+            border: 2.2px solid white;
+            border-radius: 9px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .bttn {
+            color: white;
+        }
+
+        .secondsection {
+            margin: auto;
+            max-width: 77vw;
+            height: 70vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.6rem;
+        }
+
+        .secondsection .horizontalray {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .verticalray {
+
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 130px;
+        }
+
+        .top {
+            width: 26px;
+            position: relative;
+            top: -30px;
+            left: -2px;
+        }
+
+        .vertical-title {
+            margin: 10px 0;
+            position: relative;
+            top: 50px;
+        }
+
+        .java {
+            width: 20px;
+            position: relative;
+            top: 28px;
+            left: -27px;
+        }
+
+        .c {
+            width: 20px;
+            position: relative;
+            top: 28px;
+            left: -27px;
+        }
+
+        .html {
+            width: 20px;
+            position: relative;
+            top: 28px;
+            left: -27px;
+        }
+
+        .css {
+            width: 20px;
+            position: relative;
+            top: 28px;
+            left: -27px;
+        }
+
+        .js {
+            width: 20px;
+            position: relative;
+            top: 28px;
+            left: -27px;
+        }
+
+        .mysql {
+            width: 20px;
+            position: relative;
+            top: 28px;
+            left: -27px;
+        }
+
+        .OS {
+            width: 26px;
+            position: relative;
+            top: -30px;
+            left: -2px;
+
+
+        }
+
+        .kali {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+        .windows {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+
+
+        .vapt {
+            width: 26px;
+            position: relative;
+            top: -30px;
+            left: -2px;
+        }
+
+        .nmap {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+        .meta {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+        .burpsuite {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+        .nessus {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+        .ghd {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+        .sqlmap {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+        .cn {
+            width: 26px;
+            position: relative;
+            top: -30px;
+            left: -2px;
+        }
+
+        .wireshark {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+        .cisco {
+            width: 19px;
+            position: relative;
+            top: 29px;
+            left: -27px;
+        }
+
+
+        footer {
+            background-color: rgb(80, 80, 230);
+            height: 350px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 17px 115px;
+        }
+
+        footer .footer-third {
+            text-align: center;
+            margin: 3px;
+            color: gray;
+        }
+
+        .footer-second {
+            margin-left: 300px;
+        }
+
+        .contactinfo {
+            font-size: 15px;
+        }
+
+        .mail {
+            width: 15px;
+            position: relative;
+            top: 4px;
+            left: -5px;
+
+        }
+
+        .call {
+            width: 15px;
+            position: relative;
+            top: 4px;
+            left: -5px;
+        }
+
+        .linked {
+            width: 25px;
+            position: relative;
+            top: 18px;
+            left: -5px;
+        }
+
+        .insta {
+            width: 29px;
+            position: relative;
+            top: 18px;
+            left: 3px;
+        }
+
+        .form-name {
+            margin-top: -97px;
+            margin-left: 450px;
+        }
+
+        form {
+            margin-top: 0px;
+            margin-left: -6px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .button1 {
+            background-color: #3535ab;
+            color: white;
+            cursor: pointer;
+        }
+
+
+
+        @media only screen and (max-width: 600px) {
+            header {
+                position: fixed;
+                margin-top: -81px;
+                margin-left: -60px;
+            }
+
+            .left {
+                margin-left: -180px;
+                font-size: 1.2rem;
+            }
+
+            nav ul {
+                margin-left: -80px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .right {
+                margin-left: -45px;
+                font-size: 0.8rem;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 100px;
+                width: 380%;
+                background-color: rgb(80, 80, 230);
+            }           
+
+            nav ul li {
+                list-style: none;
+                margin: 0 20px;
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+
+            }
+
+            nav ul li a:hover {
+                color: rgb(139, 139, 238);
+                font-size: 1rem;
+
+            }
+
+            .firstsection>div {
+                margin-top: 35px;
+                margin-left: 159px;
+                width: 85%;
+            }
+
+            .rightsection img {
+                width: 460%;
+                margin: 0px 47px;
+            }
+
+            .secondsection .horizontalray {
+                background: white;
+                width: 255vw;
+                height: 4px;
+                margin: 58px 0;
+                display: flex;
+            }
+
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgb(80, 80, 230);
+                color: white;
+                text-align: center;
+            }
+
+            .footer-second {
+                margin-left: -15px;
+            }
+            footer{
+                background-color: rgb(80, 80, 230);
+              height: 0;
+            }
+
+
+
+
+
+
+        }
+   

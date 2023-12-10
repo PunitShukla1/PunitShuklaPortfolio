@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+
+  <link rel="stylesheet" href="contact.css">
+
+</head>
+
+<body>
+
+    <header >
+        <nav >
+            <div class="left">Punit Shukla Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li> <a href="education.html"> Education </a></li>
+                    <li> <a href="project.html"> Projects </a> </li>
+                    <li> <a href="contact.html"> Contact Me </a></li>
+                </ul>
+
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="firstsection">
+
+            <div class="contactinfo">
+                Contact Details
+            </div>
+            <div class="details">
+                Email:- PunitShukla1024@gmail.com
+            </div>
+            <div class="link">
+                Linkedin:- <button class="btn"><a class="bttn" href="https://www.linkedin.com/in/punit-shukla-0b43b2223"
+                        style="text-decoration:none">LinkedIn</a></button>
+            </div>
+
+
+        </section>
+
+
+
+        <section class="secondsection">
+            <h3 class="contact">Contact Form</h3>
+            <form action="#" class="form" name="submit-to-google-sheet">
+                <label for="Name" class="name">Name:-</label>
+                <input type="text" id="name" name="Name" class="text" required>
+                <br>
+                <label for="Email">Email:-</label>
+                <input type="email" id="email" name="Email" class="text" required>
+                <br>
+                <label for="Message">Message:-</label>
+                <textarea id="Message" name="Message" rows="4" class="textarea" required></textarea>
+                <br>
+                <button type="submit" class="button" >Submit</button>
+                <button type="clear" class="button" onclick="clearForm()">Clear</button>
+        </section>
+
+        </form>
+
+    </main>
+
+    <form name="submit-to-google-sheet">
+
+    </form>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz1g4qzdCP4XFpa55OT3Rci5xy5wQd6Doxs81uH72U08VymToeVWpe9ZBMAiMQ9X2dqJQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <footer>
+
+        <div class="footer-rights">Copyright &#169 Punit'sPortfolio.in | All rights reserved </div>
+
+    </footer>
+
+</body>
+
+</html>

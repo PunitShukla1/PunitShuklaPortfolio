@@ -1,0 +1,214 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 6, 44);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    size: 48vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(80, 80, 230);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(139, 139, 238);
+    font-size: 1rem;
+}
+
+.contactinfo {
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.contact {
+    margin-top: 80px;
+    margin-left: 220px;
+}
+
+form {
+    margin-top: 0px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3535ab;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.details {
+    margin-top: 23px;
+    margin-left: 222px;
+}
+
+footer {
+    background-color: rgb(80, 80, 230);
+    height: 25px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    margin: 30px;
+    color: gray;
+}
+
+.link {
+    margin-left: 222px;
+}
+
+.btn {
+    margin-left: 85px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #3535ab;
+    color: Grey;
+    border: 2.2px solid white;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bttn {
+
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        position: fixed;
+        margin-top: -110px;
+        margin-left: -37px;
+    }
+
+    .left {
+        margin-left: -100px;
+        font-size: 0.8rem;
+    }
+
+    nav ul {
+        margin-left: -149px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right {
+        margin-left: -180px;
+        font-size: 0.5rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 37px;
+        width: 615px;
+        background-color: rgb(80, 80, 230);
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 5px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    nav ul li a:hover {
+        color: rgb(139, 139, 238);
+        font-size: 1rem;
+
+    }
+
+    .firstsection {
+        margin-top: 110px;
+        margin-left: -157px;
+
+    }
+
+    .secondsection {
+
+        margin-left: -162px;
+    }
+
+    .text {
+        width: 80%;
+    }
+
+    .textarea {
+        width: 80%;
+    }
+
+    footer {
+        margin-top: 1015px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(80, 80, 230);
+        color: white;
+        text-align: center;
+    }
+
+    footer .footer-rights {
+        text-align: center;
+        margin: 4px;
+        color: gray;
+    }
+
+
+}
