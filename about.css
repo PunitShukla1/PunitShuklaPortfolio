@@ -148,7 +148,7 @@ footer .footer-rights {
         display: flex;
         justify-content: space-around;
         align-items: center;
-
+    }
     footer{
             margin-top: 890px;
             position: fixed;
